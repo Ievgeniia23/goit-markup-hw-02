@@ -7,3 +7,57 @@
 button {
     cursor: pointer;
 }
+
+.logo {
+color: var(--navyblue, #2E2F42);
+font-family: Raleway; sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+.logo-style {
+color: var(--iris, #4D5AE5);
+}
+
+ .menu-link {
+    color: var(--navyblue, #2E2F42);
+    font-family: Roboto;  sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+ }
+
+ .menu-address-link {
+    color: var(--slate, #434455);
+font-family: Roboto; sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5; 
+letter-spacing: 0.02em;
+ }
+
+ .hero-page-title {
+color: var(--white, #FFF);
+text-align: center;
+font-family: Roboto; sans-serif;
+font-size: 56px;
+font-weight: 700;
+line-height: 1.07; 
+letter-spacing: 0.02em;
+ }
+
+ .hero-page-button {
+color: var(--white, #FFF);
+font-family: Roboto; sans-serif;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5; 
+letter-spacing: 0.04em;
+ }
+
+ 
