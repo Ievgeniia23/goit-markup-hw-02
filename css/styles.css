@@ -10,12 +10,14 @@ background: var(--iris, #4D5AE5);
 }
 
 body {
-font-family: "Roboto", "Helvetica Neue", "Verdana", "Tahoma", sans-serif;
-color: var(--navyblue, #2E2F42);
-    }
+font-family: "Roboto", sans-serif;
+color: var(--slate, #434455);
+background-color:#FFFFFF;
+}
     
 .logo {
-font-family: Raleway; sans-serif;
+color: var(--iris, #4D5AE5);
+font-family: "Raleway"; sans-serif;
 font-size: 18px;
 font-weight: 700;
 line-height: 1.17;
@@ -24,19 +26,19 @@ text-transform: uppercase;
 }
 
 .logo-style {
-color: var(--iris, #4D5AE5);
+color: var(--navyblue, #2E2F42);
 }
-
 
 .menu-link {
 font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
+color: var(--navyblue, #2E2F42);
  }
  .menu-link:hover,
  .menu-link:focus {
- color: var(--green, #31D0AA);
+ color: var(--ocean, #404BBF);
  }
 
  .menu-address-link:hover,
@@ -52,7 +54,9 @@ font-weight: 400;
 line-height: 1.5; 
 letter-spacing: 0.02em;
  }
-
+.hero-page {
+background: var(--navyblue, #2E2F42);
+}
 .hero-page-title {
 color: var(--white, #FFF);
 text-align: center;
@@ -62,11 +66,16 @@ letter-spacing: 0.02em;
  }
 
 .hero-page-button {
+font-family: "Roboto", sans-serif;
 color: var(--white, #FFF);
 font-size: 16px;
 font-weight: 500;
 line-height: 1.5; 
 letter-spacing: 0.04em;
+ }
+ .hero-page-button:hover,
+ .hero-page-button:focus {
+background: var(--ocean, #404BBF);
  }
 
 .section-title {
@@ -90,8 +99,17 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 }
+.team-page {
+background: var(--cloud, #F4F4FD);
+}
 
-footer-description {
+.team-menu-item {
+background-color:#FFFFFF;  
+}
+.footer-page {
+background: var(--navyblue, #2E2F42);   
+}
+.footer-description {
 color: var(--cloud, #F4F4FD);
 font-size: 16px;
 line-height: 1.5;
