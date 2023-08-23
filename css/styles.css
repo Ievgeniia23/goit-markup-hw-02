@@ -17,7 +17,7 @@ background-color:#FFFFFF;
     
 .logo {
 color: var(--iris, #4D5AE5);
-font-family: "Raleway"; sans-serif;
+font-family: "Raleway", sans-serif;
 font-size: 18px;
 font-weight: 700;
 line-height: 1.17;
@@ -27,7 +27,8 @@ text-transform: uppercase;
 
 .logo-style {
 color: var(--navyblue, #2E2F42);
-font-family: "Raleway"; sans-serif;
+font-family: "Raleway", sans-serif;
+
 }
 
 .menu-link {
@@ -117,7 +118,7 @@ background: var(--navyblue, #2E2F42);
 }
 .logo-style-footer {
 color: var(--cloud, #F4F4FD);
-font-family: "Raleway"; sans-serif;
+font-family: "Raleway", sans-serif;
 }
 .footer-description {
 color: var(--cloud, #F4F4FD);
